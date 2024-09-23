@@ -9,3 +9,21 @@ This repository integrates the ESP32 with an interface to control LEDs via web s
 3. Deploy
 4. Access ESP's IP.
 5. Be fun!
+
+# Circuit
+
+| RGB LED | ESP32 |
+|---|---|
+| Red | 19 * |
+| Green | 23 * |
+| Blue | 18 * |
+| GND | GND |
+
+> * I am using a 330 ohms resistor.
+
+| I2C LCD Display | ESP32 |
+|---|---|
+| GND | GND |
+| VCC | Vin |
+| SDA | 22 |
+| SCL | 21 |
